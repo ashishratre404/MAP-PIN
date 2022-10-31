@@ -24,3 +24,54 @@ label{
 .username{
     font-size: 12px;
 }
+form{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input, textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 12px;
+    color: gray;
+}
+select{
+    outline: none;
+}
+.submitBtn{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+.logout{
+    background-color: tomato;
+}
+.login{
+    background-color: teal;
+    margin-right: 10px;
+}
+.register{
+    background-color: slateblue;
+}
+.buttons, .logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
