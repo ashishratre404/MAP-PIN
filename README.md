@@ -1,6 +1,6 @@
 # MAP-PIN
 
-## Website where visitors can give their about the place
+### Website where visitors can give their review about the place
 
 ![map-pin](https://user-images.githubusercontent.com/78258094/199512119-4a7d5c39-80bd-4bcd-b977-0b6e4704abcb.jpeg)
 
